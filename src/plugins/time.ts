@@ -1,5 +1,4 @@
 import * as timeFunctions from '../libs/time';
-export * from '../libs/time';
 import options, { IGlobalOption } from '../globalOptions';
 import { FormatTimeConfig, ToRangeConfig } from '../libs/time';
 

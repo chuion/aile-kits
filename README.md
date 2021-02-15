@@ -71,20 +71,23 @@ console.log(checkType('hello'));
 
 2. 插件系统：部分插件需要安装第三方依赖，按需选择
 
-- 直接使用
+- 方式1：直接使用
 
 ```js
-import { formatTime } from 'aile-kits/esm/plugins/time';
+import { formatTime } from 'aile-kits/esm/libs/time';
+
 const res = formatTime(1582884000000, 'fmt:Mm');
 console.log(res)
 // => '02-28 18:00'
 ```
 
-- 设置插件参数
+- 方式2：拓展插件并自定义参数
 
 ```js
 import AileKits from 'aile-kits';
-import time, { formatTime } from 'aile-kits/esm/plugins/time';
+import time from 'aile-kits/esm/plugins/time';
+import { formatTime } from 'aile-kits/esm/libs/time';
+
 AileKits.extend(time, {
   formatTime: {
     template: 'YYYY年MM月DD日 HH:mm'
@@ -97,11 +100,10 @@ AileKits.extend(time, {
 })
 
 const res1 = AileKits.time.formatTime(1582884000000, 'fmt:Mm');
-const res2 = time.formatTime(1582884000000, 'fmt:Mm');
-const res3 = formatTime(1582884000000, 'fmt:Mm');
+const res2 = formatTime(1582884000000, 'fmt:Mm');
 
-console.log(res1, res1 === res2, res2 === res3)
-// => '02月28日 18:00' 'true' 'true'
+console.log(res1, res1 === res2)
+// => '02月28日 18:00' 'true'
 ```
 
 ## Documentation
