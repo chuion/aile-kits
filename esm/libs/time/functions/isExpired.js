@@ -33,3 +33,4 @@ export function isExpired(target, ignore, specify) {
 export function isExpiredIgnoreDate(target, specify) {
     return isExpired(target, IgnoreType.date, specify);
 }
+//# sourceMappingURL=isExpired.js.map

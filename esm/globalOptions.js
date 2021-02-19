@@ -7,3 +7,4 @@ const options = new Proxy({}, {
     },
 });
 export default options;
+//# sourceMappingURL=globalOptions.js.map

@@ -9,3 +9,4 @@ kits.extend = (plugin, option) => {
 };
 export default kits;
 export * from './libs';
+//# sourceMappingURL=index.js.map

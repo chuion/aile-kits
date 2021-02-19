@@ -1,0 +1,1 @@
+{"version":3,"file":"checkType.js","sourceRoot":"","sources":["../../src/libs/checkType.ts"],"names":[],"mappings":"AAIA,MAAM,UAAU,SAAS,CAAC,IAAS;IACjC,MAAM,IAAI,GAAG,MAAM,CAAC,SAAS,CAAC,QAAQ,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC;IAClD,OAAO,IAAI,CAAC,KAAK,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,WAAW,EAAE,CAAC;AACzC,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"request.js","sourceRoot":"","sources":["../../src/plugins/request.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,YAAY,EAAsB,MAAM,iBAAiB,CAAC;AAEnE,eAAe,CAAC,MAA0B,EAAE,IAAmB,EAAE,EAAE;IACjE,IAAI,CAAC,OAAO,GAAG,IAAI,YAAY,CAAC,MAAM,CAAC,CAAC;AAC1C,CAAC,CAAC"}

@@ -29,3 +29,4 @@ export function formatTime(time, format = '', timeFormat, template) {
     }
     return dayjs(time, timeFormat).format(realFormat);
 }
+//# sourceMappingURL=formatTime.js.map

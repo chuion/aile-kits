@@ -30,3 +30,4 @@ export function toRange(target, config = {}) {
         [mergeConfig.end]: formatFunc(dayjs(target).endOf(mergeConfig.range)),
     };
 }
+//# sourceMappingURL=toRange.js.map

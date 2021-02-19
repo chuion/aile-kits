@@ -18,3 +18,4 @@ export function isEmpty(data) {
             return !data;
     }
 }
+//# sourceMappingURL=isEmpty.js.map

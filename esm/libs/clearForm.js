@@ -37,3 +37,4 @@ export function clearCloneForm(form, option = {}) {
     const _form = JSON.parse(JSON.stringify(form));
     return clearForm(_form, option);
 }
+//# sourceMappingURL=clearForm.js.map

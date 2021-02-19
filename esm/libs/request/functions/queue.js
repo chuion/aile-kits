@@ -84,3 +84,4 @@ export class RequestQueue {
         this.httpStore.clear();
     }
 }
+//# sourceMappingURL=queue.js.map
